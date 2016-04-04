@@ -1,0 +1,25 @@
+template:
+  # Name of the directory containing the website template (default is "website")
+  directory: website
+  # Or if you are using a remote template, you can set the Git URL
+  url: https://github.com/CouscousPHP/Template-Light.git
+
+# Any variable you put in this file is also available in the Twig layouts:
+title: Dicentis Documentation
+subTitle: For Users and Developers
+
+github:
+  user: dicentis
+  repo: dicentis
+
+# The left menu bar
+menu:
+  items:
+    home:
+      text: "<i class=\"fa fa-github\"></i> Home"
+      # You can use relative urls
+      relativeUrl: index.html
+    dicentis:
+      text: Dicentis.io 
+      # Dicenits Home page 
+      absoluteUrl: https://dicentis.io
