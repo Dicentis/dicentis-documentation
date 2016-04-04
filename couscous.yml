@@ -23,3 +23,7 @@ menu:
       text: Dicentis.io 
       # Dicenits Home page 
       absoluteUrl: https://dicentis.io
+
+# Base URL of the published website (no "/" at the end!)
+# You are advised to set and use this variable to write your links in the HTML layouts
+baseUrl: http://dicentis.github.io/documentation
